@@ -1,5 +1,5 @@
 # FantasyRankings2022
-This repository aggregates the pairwise comparison of football players within a given position group into a personalized full ranking list using binary search. You will be asked a series of Player A vs. Player B questions where you enter "a" or "b" on the command line to indicate your selection. After each player has been inserted into the rankings, your results are saved to a text file which compares your personal rankings against position rankings.
+This repository aggregates the pairwise comparison of football players within a given position group into a personalized full ranking list using binary search. You will be asked a series of Player A vs. Player B questions where you enter "a" or "b" on the command line to indicate your selection. After each player has been inserted into the rankings, your results are saved to a text file which compares your personal rankings against positional ADP rankings from the included JSON files. These rankings are based on PPR format (sorry couldn't find 1/2 PPR rankings).
 
 ## Setup
 The repository only requires the ``numpy``, ``json``, and ``argparse`` libraries. These are standard libraries with most Python3 installations, e.g. Anaconda. With a working Python3 installation, simply clone this repository and use the ``ranker.py`` file to generate your position rankings.
